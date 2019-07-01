@@ -12,7 +12,7 @@ python proxy.py
 
 It will write all working proxies to a file called `good.txt`
 
-**ALL PROXIES ARE HTTP/HTTP**
+**ALL PROXIES ARE HTTP/HTTPS**
 
 Websites used:
 
