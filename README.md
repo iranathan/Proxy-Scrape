@@ -9,3 +9,25 @@ git clone https://github.com/iranathan/Proxy-Scrape.git
 cd Proxy-Scrape
 python proxy.py
 ```
+
+It will write all working proxies to a file called `good.txt`
+
+**ALL PROXIES ARE HTTP/HTTP**
+
+Websites used:
+
+http://multiproxy.org/txt_all/proxy.txt,
+
+https://www.sslproxies.org/
+
+https://free-proxy-list.net/
+
+https://www.us-proxy.org/
+
+https://www.proxy-list.download/api/v0/get?l=en&t=https
+
+https://www.duplichecker.com/free-proxy-list.php
+
+http://www.httptunnel.ge/ProxyListForFree.aspx
+
+https://checkerproxy.net/ (proxies uploaded by user)
