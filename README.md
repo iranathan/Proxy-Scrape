@@ -12,6 +12,8 @@ python proxy.py
 
 It will write all working proxies to a file called `good.txt`
 
+![screenshot] (https://i.ibb.co/hM05LRz/Screen-Shot-2019-07-01-at-20-25-37.png)
+
 **ALL PROXIES ARE HTTP/HTTPS**
 
 Websites used:
