@@ -7,6 +7,7 @@ How to start:
 ```
 git clone https://github.com/iranathan/Proxy-Scrape.git
 cd Proxy-Scrape
+pip install -r requirements.txt
 python proxy.py
 ```
 

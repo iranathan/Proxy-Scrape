@@ -42,7 +42,7 @@ for i in list(range(len(scrapers))):
             proxies.extend(html.split('\n'))
 
         elif scraper == 'https://www.sslproxies.org/':
-            tr = soup.find('table', {'id': 'proxylisttable'})
+            tr = soup.find('table', {'class': 'table-striped'})
             prox = list(tr.find_all('tr'))
             prox.pop(0)
             for proxy in prox:
@@ -55,7 +55,7 @@ for i in list(range(len(scrapers))):
                     pass
 
         elif scraper == 'https://free-proxy-list.net/':
-            tr = soup.find('table', {'id': 'proxylisttable'})
+            tr = soup.find('table', {'class': 'table-striped'})
             prox = list(tr.find_all('tr'))
             prox.pop(0)
             for proxy in prox:
@@ -68,7 +68,7 @@ for i in list(range(len(scrapers))):
                     pass
 
         elif scraper == 'https://www.us-proxy.org/':
-            tr = soup.find('table', {'id': 'proxylisttable'})
+            tr = soup.find('table', {'class': 'table-striped'})
             prox = list(tr.find_all('tr'))
             prox.pop(0)
             for proxy in prox:
